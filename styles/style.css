@@ -180,11 +180,28 @@ main > section{
 }
 
 /* Footer Style  */
-
-
-
-
-
+footer{
+    background-color: black;
+    padding: 2rem;
+}
+.footer-title{
+    color: white;
+    max-width: 260px;
+    margin: 6.5rem auto;
+    text-align: center;
+}
+.footer-title p{
+    padding: 0.5rem 0;
+}
+.footer-icon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+    margin-top: -5rem;
+    padding-bottom: 5rem;
+}
 
 /* Small Device Style  */
 @media screen and (max-width: 576px) {
@@ -239,9 +256,6 @@ main > section{
     width: 100%;
    }
 }
-
-
-
 
 /* Medium Device Responsive  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
